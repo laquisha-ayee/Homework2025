@@ -1,12 +1,36 @@
 {
+<<<<<<< HEAD
   "name": "server",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+=======
+  "name": "express-route-handlers",
+  "version": "1.0.0",
+  "description": "Handles a number of Express routes to receive and return JSON data.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "mocha"
+>>>>>>> 9b464b8 (Initial commit)
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+<<<<<<< HEAD
   "description": ""
+=======
+  "dependencies": {
+    "chai": "^4.3.7",
+    "chai-http": "^4.3.0",
+    "express": "^4.17.1",
+    "mocha": "^10.2.0"
+  },
+  "devDependencies": {
+    "esm": "^3.2.25",
+    "nodemon": "^2.0.7"
+  }
+>>>>>>> 9b464b8 (Initial commit)
 }
